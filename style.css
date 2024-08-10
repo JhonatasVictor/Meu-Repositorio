@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+   height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: transparent;
+
+
+    justify-content: center;
+    align-items: center;
+
+   
+
+    
+}
+.imagem img {
+    width: 35%;
+    height: 50%;
+    border-radius: 48%;
+     margin-left: 80px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.meu-nome {
+    font-size: 0.7em;
+      padding: 30px;
+      display: flex;
+      color: rgb(79, 82, 84);
+
+      flex-direction: column;
+      align-items: center;
+}
+
+.links {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.links a {
+    text-decoration: none;
+    background-color: #e4e0e0;
+    color: rgb(143, 134, 134);
+    margin: 10px;
+    padding: 25px;
+    height: 3px;
+    text-align: center;
+    width: 60%;
+    font-size: 0.6;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.links a:hover {
+    background-color: #aca7a7;
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    color: #635d5d;
+}
+.principal {
+    background-color: #d9d5d56c;
+    width: 50%;
+    padding: 30px;
+    border-radius: 50px;
+    border: 1px solid black;
+    opacity: 1.4;
+    
+}
+#insta {
+    height: 27px;
+    float: left;
+    margin: auto;
+    
+
+}
+#git {
+    height: 27px;
+    border-radius: 100%;
+    float: left;
+    
+}
+#face {
+    height: 25px;
+   border-radius: 100%;
+   float: left;
+   
+}
+#like {
+    height: 25px;
+    border-radius: 5px;
+    float: left;
+}
+
+@media screen and (min-width: 760px) {
+      .imagem img {
+          width: 38%;
+          height: 25%;
+          margin-left: 180px;
+      }
+      .principal {
+        width: 35%;
+        height: 90%;
+      }
+      .links a {
+        height: 7px;
+        font-size: 1.3em;
+      }
+      #like {
+        height: 30px;
+      }
+      #insta {
+        height: 31px;
+      }
+      #git {
+        height: 30px;
+      }
+      #face {
+        height: 31px;
+      }
+      .meu-nome {
+        font-size: 1.3em;
+      }
+}
+ 
