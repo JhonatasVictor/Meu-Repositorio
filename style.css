@@ -21,7 +21,7 @@ body {
     width: 35%;
     height: 50%;
     border-radius: 48%;
-     margin-left: 80px;
+     margin-left: 60px;
     display: flex;
 
     justify-content: center;
@@ -29,7 +29,7 @@ body {
 }
 
 .meu-nome {
-    font-size: 0.7em;
+    font-size: 0.5em;
       padding: 30px;
       display: flex;
       color: rgb(79, 82, 84);
@@ -55,7 +55,7 @@ body {
     height: 3px;
     text-align: center;
     width: 60%;
-    font-size: 0.6;
+    font-size: 0.7em;
     border-radius: 20px;
     transition: all 0.3s ease;
 }
